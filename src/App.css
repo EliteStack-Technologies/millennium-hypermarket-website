@@ -1,0 +1,5 @@
+/* This file is intentionally minimal - all styles are defined in the design system */
+
+html {
+  scroll-behavior: smooth;
+}
