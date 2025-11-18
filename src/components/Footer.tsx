@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2">
-               <img src={logo} alt="logo" className=" object-contain w-[200px]"/>
+               <img src={logo} alt="logo" className=" object-contain "/>
 
             <p className="text-muted-foreground mb-4">
               Your trusted destination for fresh, quality groceries and everyday essentials.
