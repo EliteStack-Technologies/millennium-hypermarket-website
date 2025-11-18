@@ -1,15 +1,13 @@
 import { ShoppingCart, Facebook, Instagram, Twitter } from "lucide-react";
-
+import logo from '../../public/logo.svg'
 const Footer = () => {
   return (
     <footer className="bg-section-bg border-t border-border">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <ShoppingCart className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-foreground">Millennium Hypermarket</span>
-            </div>
+               <img src={logo} alt="logo" className=" object-contain w-[200px]"/>
+
             <p className="text-muted-foreground mb-4">
               Your trusted destination for fresh, quality groceries and everyday essentials.
             </p>
@@ -47,18 +45,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
-            <h3 className="font-semibold text-foreground mb-4">Our Locations</h3>
-            <ul className="space-y-2 text-muted-foreground">
-              <li>India</li>
-              <li>Oman</li>
-              <li>UAE</li>
-            </ul>
-          </div>
+     
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Millennium Hypermarket. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Millennium Hypermarket LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-card-foreground">Phone</h3>
-                <p className="text-muted-foreground">Mobile: 096057 88111</p>
+                <p className="text-muted-foreground">Mobile: ----------</p>
               </div>
             </div>
           </Card>
@@ -53,10 +53,10 @@ const Contact = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-card-foreground">Email</h3>
                 <a 
-                  href="mailto:info@millenniumhypermarket.com" 
+                  href="mailto:hello@millenniumhyper.com" 
                   className="text-muted-foreground hover:text-primary transition-colors break-all"
                 >
-                  info@millenniumhypermarket.com
+                  hello@millenniumhyper.com
                 </a>
               </div>
             </div>
@@ -69,26 +69,14 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-card-foreground">Visit Us</h3>
-                <p className="text-muted-foreground">Multiple locations across India, Oman & UAE</p>
+                <p className="text-muted-foreground">Khalifa Saeed Al Meraikhi Building 53,
+Airport Road, Karamah, Abu Dhabi,
+28632, Abu Dhabi</p>
               </div>
             </div>
           </Card>
         </div>
 
-        {/* Address Cards */}
-        <div className="grid md:grid-cols-2 gap-6">
-          {addresses.map((address, index) => (
-            <Card key={index} className="p-6 border-border bg-card hover:shadow-soft transition-shadow">
-              <div className="flex items-start gap-4">
-                <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
-                <div>
-                  <h4 className="font-semibold text-lg mb-2 text-accent">{address.country}</h4>
-                  <p className="text-muted-foreground leading-relaxed">{address.location}</p>
-                </div>
-              </div>
-            </Card>
-          ))}
-        </div>
       </div>
     </section>
   );
