@@ -17,7 +17,7 @@ const Hero = () => {
             Fresh Quality, Every Day
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground">
-            Your trusted destination for premium groceries and everyday essentials across India, Oman, and UAE
+            Your trusted destination for premium groceries and everyday essentials across UAE
           </p>
           <div className="flex flex-wrap gap-4">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
